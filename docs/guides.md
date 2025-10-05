@@ -236,7 +236,7 @@ The list above will result in the following dummy devices being created: `$MODPA
 
 #### Notes
 
-- When your module is downloaded with the Magisk app, `update-binary` will be **forcefully** replaced with the latest [`module_installer.sh`](https://github.com/topjohnwu/Magisk/blob/master/scripts/module_installer.sh). **DO NOT** try to add any custom logic in `update-binary`.
+- When your module is downloaded with the Magisk app, `update-binary` will be **forcefully** replaced with the latest [`module_installer.sh`](httphttps://github.com/topjohnwu/Magisk/blob/master/scripts/module_installer.shs://github.com/topjohnwu/Magisk/blob/master/scripts/module_installer.sh). **DO NOT** try to add any custom logic in `update-binary`.
 - Due to historical reasons, **DO NOT** add a file named `install.sh` in your module installer zip.
 - **DO NOT** call `exit` at the end of `customize.sh`. The module installer script has to perform some cleanups before exiting.
 
